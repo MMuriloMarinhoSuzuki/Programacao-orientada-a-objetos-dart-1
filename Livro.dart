@@ -2,9 +2,15 @@ void main(List<String> args) {
   
 }
 
-Class Livro{
+class Livro{
   String titulo;
   String autor;
   String anoPublicacao;
   bool emprestado;
+
+  Livro(this.titulo, this.autor, this.anoPublicacao) : emprestado = false;
+
+  void exibirDetalhes(){
+    print("Titulo: \$titulo. Autor: \$autor. Ano: \$anoPublicacao. emprestado \$emprestado.");
+  }
 }
