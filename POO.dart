@@ -1,9 +1,6 @@
 import 'Livro.dart';
 
-void main(List<String> args) {
-  
-}
-
-class Livro{
+void main() {
   Livro livro = new Livro("1984", "George Orwell", 1950);
+  livro.exibirDetalhes();
 }
