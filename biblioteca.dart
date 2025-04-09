@@ -12,6 +12,12 @@ class Biblioteca {
 
   void cadastrarUsuario(Usuario user) {
     usuarios[user.nome] = user;
-    print('Usuário ${Usuario.nome} cadastrado com sucersso');
+    print('Usuário ${user.nome} cadastrado com sucersso');
+  }
+
+  void listarLivros() {
+    for (Livro livro in livros) {
+      livro.exibirDetalhes();
+    }
   }
 }
