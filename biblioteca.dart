@@ -9,4 +9,9 @@ class Biblioteca {
     livros.add(livro);
     print('Livro: ${livro.titulo} cadastrado com sucesso');
   }
+
+  void cadastrarUsuario(Usuario user) {
+    usuarios[user.nome] = user;
+    print('Usuário ${Usuario.nome} cadastrado com sucersso');
+  }
 }
