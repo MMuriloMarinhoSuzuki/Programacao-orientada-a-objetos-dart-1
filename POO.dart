@@ -10,4 +10,9 @@ void main() {
   Usuario usuario1 = new Usuario("Murilo");
   Usuario usuario2 = new Usuario("Francisco");
   biblioteca.cadastrarUsuario(usuario1);
+  biblioteca.cadastrarUsuario(usuario2);
+
+  biblioteca.cadastroLivro(livro);
+  biblioteca.cadastroLivro(livro2);
+
 }
