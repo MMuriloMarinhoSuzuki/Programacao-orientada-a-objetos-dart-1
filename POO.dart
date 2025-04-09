@@ -15,4 +15,7 @@ void main() {
   biblioteca.cadastroLivro(livro);
   biblioteca.cadastroLivro(livro2);
 
+  usuario1.pegarLivroEmprestado(livro);
+  usuario2.devolverLivro(livro);
+  biblioteca.listarLivros();
 }
