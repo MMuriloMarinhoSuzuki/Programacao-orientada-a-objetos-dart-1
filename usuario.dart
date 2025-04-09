@@ -1,6 +1,6 @@
 import 'Livro.dart';
 
-class Usuario() {
+class Usuario{
   String nome;
   List<Livro> livrosEmprestados = [];
   Usuario(this.nome);
